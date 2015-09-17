@@ -1,0 +1,15 @@
+.navbar, .nav, .nav li, .nav li a {
+    background-color: #e74c3c;
+    color: white;
+}
+.nav li:hover, .nav li a:hover {
+    background-color: #e74c3c;
+}
+.nav>li>a:hover,
+.nav>li>a:focus {
+    text-decoration: none;
+    background-color: #e74c3c;
+}
+.nav li a:hover {
+  background-color: #e74c3c; 
+}
