@@ -1,3 +1,4 @@
+
 .navbar, .nav, .nav li, .nav li a {
     background-color: #e74c3c;
     color: white;
@@ -13,3 +14,24 @@
 .nav li a:hover {
   background-color: #e74c3c; 
 }
+h1{
+  color:orange;
+}
+.hungry-btn{
+  background-color:red;
+  color:white;
+  width:400px;
+  height:50px;
+  font-size:40px;
+
+}
+.share-btn{
+  background-color:green;
+  color:white;
+  width:400px;
+  height:50px;
+  font-size: 40px;
+  margin-top:20px;
+
+}
+
