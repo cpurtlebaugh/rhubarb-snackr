@@ -18,6 +18,19 @@
     </head>
 
     <body> 
+      <style type="text/css">
+
+        #x {
+          display: table;
+          max-width: 900px;
+          height: 500px;
+          margin: 0 auto;
+      }
+      .wrapper{
+        position: relative;
+        margin: 0 auto
+      }
+    </style>
       <nav class="navbar navbar-default">
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
@@ -42,45 +55,10 @@
         </div><!-- /.container-fluid -->
       </nav>
       <div class="wrapper">
-        <div class="cookie">
-          <div class="content">
-            <div id="instafeed">
-              </div>
-              <div class="button"> 
-                  <a href="main.html">
-                  <div class="left">
-                    <div class="glyphicon glyphicon-remove"></div>
-                  </div>
-                  </a>
-                  <a href="profile.html">
-                  <div class="center">
-                    <div class="glyphicon glyphicon-heart"></div>
-                  </div>
-                  </a>
-                  <a href="main.html">
-                  <div class="right">
-                    <div class="glyphicon glyphicon glyphicon-ok"></div>
-                  </div>
-                  </a>
-                </div>
-            </div>
-          </div>
+        <img class="img-responsive" id='x' src="img/prof.png">
       </div>
     </body>
     <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/instafeed.min.js"></script>  
-    <script type="text/javascript">
-        //instagram gallery using instafeed.js
-        var feed = new Instafeed({
-          get: 'tagged',
-          tagName: 'foodporn',
-          clientId: '9c2adf36eac140569f626d3caa61ef9a',
-          sortBY: 'most-liked',
-          resolution: 'low_resolution',
-          limit: 1,
-          template: '<img class="img-responsive" src="{{image}}"/>'
-        });
-        feed.run();
-    </script>
 </html>
